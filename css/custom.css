@@ -1,0 +1,9 @@
+#profile-photo {
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: grey;
+}
