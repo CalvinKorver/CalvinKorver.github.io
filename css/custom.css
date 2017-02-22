@@ -6,4 +6,13 @@
 
 #services {
     background-color: #3C7247;
+    color:white;
+}
+
+#portfolio {
+    background-color: #3C7247
+}
+
+.port-description {
+    padding:30px;
 }

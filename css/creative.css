@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: white;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,11 +23,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: white;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #19508A;
 }
 h1,
 h2,
@@ -156,7 +156,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   /*background-position: (0,-200,0,0);*/
-  background-image: url('../images/northernedit.png');
+  background-image: url('../img/northernedited.jpg');
   text-align: center;
   color: white;
 }
@@ -234,7 +234,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #051835;
   position: absolute;
   bottom: 0;
   text-align: center;
