@@ -20,3 +20,12 @@
 .port-description {
     padding:30px;
 }
+
+#face-header {
+    background-image: url("../img/mountains.jpg");
+    opacity: .9;
+}
+
+#file-upload-form {
+    background-color: #3C7247;
+}
