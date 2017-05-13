@@ -140,12 +140,15 @@ function addPhoto(albumName) {
   var albumPhotosKey = encodeURIComponent(albumName) + '//';
 
   var photoKey = albumPhotosKey + fileName;
+  
   s3.upload({
     Key: photoKey,
     Body: file,
     ACL: 'public-read'
   }, function(err, data) {
+    
     if (err) {
+      console.log(err);
       return alert('There was an error uploading your photo: ', err.message);
     }
     alert('Successfully uploaded photo.');
