@@ -27,6 +27,8 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
+    "material-components-web": "^0.10.0",
+    "material-design-lite": "^1.3.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }
