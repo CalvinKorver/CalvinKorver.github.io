@@ -1,0 +1,41 @@
+#project-thumbs-outer-div {
+  display: block;
+  margin: auto;
+  padding-top: 8% ;
+  padding-right: 4%;
+}
+img.project-thumb:hover {
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  z-index: 3;
+}
+img.project-thumb {
+  transform: scale(1);
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+div.thumbmodal {
+  min-height: 90%;
+}
+@-webkit-keyframes scaleDown {
+  from {
+    transform: scale(4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* Standard syntax */
+@keyframes scaleDown {
+  from {
+    transform: scale(4);
+  }
+  to {
+    transform: scale(1);
+  }
+}

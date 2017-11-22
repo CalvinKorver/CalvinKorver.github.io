@@ -1,0 +1,47 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This website is a personal website belonging to Calvin Korver, a University of Washington Informatics student">
+    <meta name="author" content="Calvin Korver">
+
+    <title>Calvin Korver</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#f7f7f7">
+    
+    
+    <link rel="stylesheet" href="app/css/timeline/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="app/css/timeline/style.css"> <!-- Resource style -->
+
+
+    <link rel="stylesheet" href="app/css/main.css">
+    <link rel="stylesheet" href="app/css/project-thumbs.css">
+    <!-- Jqeury -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Semantic -->
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+
+    <script src="app/js/thumbnails.js"></script>
+</head>
+
+<body>
+
+{% block content %} {% endblock %}
+
+</body>
+
+</html>

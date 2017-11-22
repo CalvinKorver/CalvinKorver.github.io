@@ -29,7 +29,8 @@ module.exports = {
       config      : 'src/theme.config',
       definitions : 'src/definitions/',
       site        : 'src/site/',
-      themes      : 'src/themes/'
+      themes      : 'src/themes/',
+      custom      : 'src/custom'
     },
     output: {
       packaged     : 'dist/',

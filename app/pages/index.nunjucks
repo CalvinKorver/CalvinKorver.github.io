@@ -1,0 +1,16 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="ui stackable two column grid ">
+        <div class="eight wide column">
+            {% include "partials/leftblock.nunjucks" %}
+        </div>
+
+        <div class="eight wide column" id="project-thumbs-outer-div">
+            {% include "partials/rightblock.nunjucks" %}
+        </div>
+    </div>
+
+    {% include "partials/adl-modal.nunjucks" %}
+{% endblock %}
